@@ -7,4 +7,85 @@
     --open-sans-font-family: 'Open Sans', sans-serif;
 }
 
-body {}
+body {
+    font-family: var(--open-sans-font-family);
+}
+
+.inner-container {
+    padding: 2rem 3rem;
+}
+
+.background-img {
+    background-image: url(/images/bg-hero-desktop.svg);
+    margin-bottom: 30px;
+    margin-top: -15px;
+   
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.huddle-img img {
+    width: 12rem;
+}
+
+.head-button {
+    width: 12rem;
+    height: 2.8rem;
+    font-size: 14px;
+    background-color: #fff;
+    border-radius: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-container {
+    display: flex;
+    
+}
+
+.titleandtext {
+    width: 36rem;
+    padding-top: 6rem;
+    padding-right: 4rem;
+    
+}
+
+.first-title {
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.first-text {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 2.5rem;
+}
+
+.first-button {
+    width: 17rem;
+    height: 3rem;
+    font-size: 14px;
+    background-color: var(--pink);
+    color: white;
+    border-radius: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-img img {
+    width: 39rem;
+    height: 31rem;
+}
