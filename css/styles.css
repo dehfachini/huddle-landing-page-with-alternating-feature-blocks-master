@@ -17,15 +17,14 @@ body {
 
 .background-img {
     background-image: url(/images/bg-hero-desktop.svg);
-    margin-bottom: 30px;
-    margin-top: -15px;
-   
+    margin-top: -10px;
+    background-repeat: no-repeat;
 }
 
 .head-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     margin-bottom: 3.5rem;
 }
 
@@ -48,14 +47,14 @@ body {
 
 .first-container {
     display: flex;
-    
+    padding-bottom: 10rem;
+   
 }
 
 .titleandtext {
     width: 36rem;
     padding-top: 6rem;
     padding-right: 4rem;
-    
 }
 
 .first-title {
@@ -88,4 +87,13 @@ body {
 .first-img img {
     width: 39rem;
     height: 31rem;
+}
+
+.middle-container {
+    display: flex;
+}
+
+.middle-img img {
+    width: 25rem;
+    height: 20rem;
 }
