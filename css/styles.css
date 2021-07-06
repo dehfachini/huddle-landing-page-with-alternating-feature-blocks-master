@@ -137,15 +137,104 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 22rem;
+    margin-top: 4rem;
+    margin-left: 17rem;
     height: 12rem;
-    width: 40rem;
+    width: 44rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 1rem;
-    margin-bottom: 10rem;
+    margin-bottom: -4rem;
+    position: relative;
+    z-index: 5;
+}
+
+.second-button {
+    width: 24rem;
+    height: 4rem;
+    font-size: 20px;
+
+}
+.purple-title {
+    font-size: 28px;
+}
+
+.filter-white {
+    filter: invert(90%) sepia(100%) saturate(0%) hue-rotate(174deg) brightness(104%) contrast(101%);
+}
+
+.footer-card {
+    background-color: hsl(192, 100%, 9%);
+    position: absolute;
+    z-index: -5;
+    color: white;
+    width: 100%;
+}
+
+.huddle-footer-img {
+    margin-top: 10rem;
+    margin-left: 6rem;
+}
+
+.huddle-footer-img img {
+    width: 14rem;
+}
+
+.inner-footer-card {
+    margin: 2rem 6rem 6rem 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adress-contact {
+    width: 24rem;
+   
+}
+
+.margin {
+    margin-bottom: 1.5rem;
+    display: flex;
+    
+   
+}
+
+.about-us {
+    margin-left: 2rem;
+    width: 12rem;
 }
 
 
-.purple-title {
-    font-size: 28px;
+.careers {
+    margin-right: 6rem;
+}
+
+
+.icon-image {
+    margin-right: 1.5rem;
+}
+
+
+
+.icons {
+    width: 20px;
+    filter: invert(96%) sepia(100%) saturate(2%) hue-rotate(257deg) brightness(109%) contrast(100%);
+    padding: 0.3rem;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+    align-items: start;
+    
+
+}
+
+.social-icons {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+.copyright {
+    font-size: 12px;
 }
