@@ -12,17 +12,17 @@ body {
     margin: auto;
 }
 
-.inner-container {
-    padding: 2rem 4rem;
-}
+/* Head */
 
 .background-img {
     background-image: url(/images/bg-hero-desktop.svg);
     margin-top: -10px;
     background-color: var(--very-pale-cyan);
     background-repeat: no-repeat;
+}
 
-   
+.inner-container {
+    padding: 2rem 4rem;
 }
 
 .head-container {
@@ -30,14 +30,13 @@ body {
     justify-content: space-between;
     margin-top: 2rem;
     margin-bottom: 3.5rem;
-    
 }
 
 .huddle-img img {
     width: 12rem;
 }
 
-.head-button {
+.btn-neutral {
     width: 12rem;
     height: 2.8rem;
     font-size: 14px;
@@ -50,14 +49,12 @@ body {
     justify-content: center;
 }
 
-.first-container {
+.left-container {
     display: flex;
     padding-bottom: 2rem;
-  
-    
 }
 
-.titleandtext {
+.title-text {
     width: 36rem;
     padding-top: 6rem;
     padding-right: 4rem;
@@ -70,13 +67,13 @@ body {
     margin-bottom: 2rem;
 }
 
-.first-text {
+.text {
     font-size: 17px;
     line-height: 1.5;
     margin-bottom: 2.5rem;
 }
 
-.button {
+.btn-primary {
     width: 17rem;
     height: 3rem;
     font-size: 14px;
@@ -95,22 +92,23 @@ body {
     height: 31rem;
 }
 
-.middle-container {
-    display: flex;
-    align-items: center;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 1rem;
-    height: 28rem;
-    
-    margin-bottom: 2rem;
-    background-color: #fff;
-}
+/* Card */
 
 .mt-container {
     margin-top: 4rem;
 }
 
-.middle-titleandtext {
+.card {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1rem;
+    height: 28rem;
+    margin-bottom: 2rem;
+    background-color: #fff;
+}
+
+.card-title-text {
     width: 30rem;
     height: 16rem;
     padding-top: 8rem;
@@ -118,34 +116,36 @@ body {
     padding-right: 8rem;
 }
 
-.middle-title {
+.card-title {
     font-size: 30px;
     font-weight: bold;
     line-height: 1.5;
     margin-bottom: 1rem;
 }
 
-.middle-text {
+.card-text {
     color: gray;
     line-height: 1.5;
     font-size: 17px;
 }
 
-.middle-img img {
+.card-img img {
     width: 25rem;
     height: 20rem;
 }
 
-.img2 {
+.card-img-left {
     padding-left: 6rem;
     padding-right: 4rem;
 }
 
-.tandt2 {
+.right-card-text {
     padding-right: 2rem;
 }
 
-.purple-card {
+/* Call to action */
+
+.call-to-action {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -158,24 +158,15 @@ body {
     border-radius: 1rem;
     margin-bottom: -4rem;
     background-color: #fff;
-
 }
 
-.second-button {
-    width: 24rem;
-    height: 4rem;
-    font-size: 20px;
-
-}
-.purple-title {
+.call-to-action-title {
     font-size: 28px;
 }
 
-.filter-white {
-    filter: invert(90%) sepia(100%) saturate(0%) hue-rotate(174deg) brightness(104%) contrast(101%);
-}
+/* Footer */
 
-.footer-card {
+.footer {
     background-color: hsl(192, 100%, 9%);
     position: absolute;
     z-index: -1;
@@ -192,22 +183,27 @@ body {
     width: 14rem;
 }
 
+.filter-white {
+    filter: invert(90%) sepia(100%) saturate(0%) hue-rotate(174deg) brightness(104%) contrast(101%);
+}
+
 .inner-footer-card {
     margin: 2rem 6rem 6rem 6rem;
     display: flex;
     justify-content: space-between;
 }
 
-.adress-contact {
+.address-contact {
     width: 24rem;
-   
 }
 
-.margin {
+.footer-item {
     margin-bottom: 1.5rem;
     display: flex;
-    
-   
+}
+
+.icon-image {
+    margin-right: 1.5rem;
 }
 
 .about-us {
@@ -215,22 +211,8 @@ body {
     width: 12rem;
 }
 
-
 .careers {
     margin-right: 6rem;
-}
-
-
-.icon-image {
-    margin-right: 1.5rem;
-}
-
-
-
-.icons {
-    width: 20px;
-    filter: invert(96%) sepia(100%) saturate(2%) hue-rotate(257deg) brightness(109%) contrast(100%);
-    padding: 0.3rem;
 }
 
 .social {
@@ -238,14 +220,18 @@ body {
     flex-direction: column;
     width: 16rem;
     align-items: start;
-    
-
 }
 
 .social-icons {
     display: flex;
     width: 100%;
     margin-bottom: 10rem;
+}
+
+.icons {
+    width: 20px;
+    filter: invert(96%) sepia(100%) saturate(2%) hue-rotate(257deg) brightness(109%) contrast(100%);
+    padding: 0.3rem;
 }
 
 .copyright {
